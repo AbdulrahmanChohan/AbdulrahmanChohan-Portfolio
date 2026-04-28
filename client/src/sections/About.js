@@ -1,7 +1,7 @@
 import React from 'react';
 import { scrollToSection } from '../utils/scrollToSection';
 
-const PROFILE_IMAGE = `${process.env.PUBLIC_URL}/images/profile-portrait.jpg`;
+const PROFILE_IMAGE = `${process.env.PUBLIC_URL}/images/abdulrahman-chohan-portrait.jpg`;
 const PROFILE_FALLBACK = 'https://via.placeholder.com/760x1024/0b1219/e6efff?text=Abdulrahman+Chohan';
 
 const About = () => {
@@ -16,26 +16,26 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-10 sm:gap-12 items-center">
           {/* Left: image card with badge */}
-          <div className="relative flex justify-center lg:justify-start" data-reveal> 
+          <div className="relative flex justify-center lg:justify-start mt-8 lg:mt-0" data-reveal>
             <div className="relative">
               {/* image container */}
-              <div className="w-[min(100%,320px)] h-[400px] sm:w-80 sm:h-[430px] md:w-96 md:h-[520px] rounded-[30px] p-3 portrait-shell">
+              <div className="mx-auto w-full max-w-xs sm:max-w-sm md:max-w-96 h-[400px] sm:h-[430px] md:h-[520px] rounded-[30px] p-3 portrait-shell">
                 <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/40 flex items-center justify-center">
                   <img
                     src={PROFILE_IMAGE}
                     onError={handleImageError}
-                    alt="Profile"
-                    className="w-full h-full object-cover portrait-image"
+                    alt="Abdulrahman Chohan portrait for the portfolio about section"
+                    className="w-full h-full object-cover mx-auto portrait-image"
                   />
                 </div>
               </div>
 
               {/* circular badge */}
-              <div className="absolute -top-4 left-2 sm:-top-6 sm:-left-6 w-24 h-24 md:w-28 md:h-28 flex items-center justify-center rounded-full" aria-hidden>
+              <div className="absolute -top-8 -left-2 sm:-top-6 sm:-left-6 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 flex items-center justify-center rounded-full" aria-hidden>
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-purple-600 to-pink-500 p-[6px] shadow-lg">
                   <div className="w-full h-full rounded-full bg-[#07060a] flex flex-col items-center justify-center text-center">
-                    <span className="text-white font-extrabold text-lg md:text-xl">3.5+</span>
-                    <span className="text-xs text-white/70">Years<br />Deep Building</span>
+                    <span className="text-white font-extrabold text-base sm:text-lg md:text-xl">3.5+</span>
+                    <span className="text-[10px] sm:text-xs text-white/70 leading-tight">Years<br />Deep Building</span>
                   </div>
                 </div>
               </div>

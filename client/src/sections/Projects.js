@@ -84,11 +84,11 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="p-5 sm:p-6 flex flex-col flex-1">
+              <div className="p-6 sm:p-7 flex flex-col flex-1">
                 <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
                 <p className="text-gray-300 mb-5 leading-relaxed flex-1">{project.summary}</p>
 
-                <div className="mb-6 flex flex-wrap gap-2.5">
+                <div className="mb-6 flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
                     <span
                       key={`${project.id}-${tech}`}

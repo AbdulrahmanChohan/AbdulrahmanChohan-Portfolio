@@ -179,7 +179,7 @@ const Contact = () => {
                   required
                   disabled={isSubmitting}
                   rows={6}
-                  className="contact-input w-full px-4 py-3 rounded-lg disabled:opacity-50 text-white"
+                  className="contact-input w-full min-h-[120px] px-4 py-3 rounded-lg disabled:opacity-50 text-white"
                   placeholder="Tell me about your goals, timeline, and any reference websites..."
                 />
               </div>

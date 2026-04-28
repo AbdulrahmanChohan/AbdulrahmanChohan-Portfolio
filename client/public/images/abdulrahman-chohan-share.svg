@@ -1,0 +1,77 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abdulrahman Chohan Portfolio Preview</title>
+  <desc id="desc">Portfolio preview banner for Abdulrahman Chohan, an AI and full-stack engineer.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050709" />
+      <stop offset="55%" stop-color="#081017" />
+      <stop offset="100%" stop-color="#040607" />
+    </linearGradient>
+    <linearGradient id="accent" x1="96" y1="84" x2="420" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#25E9DD" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#74F7FF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="panel" x1="108" y1="108" x2="1090" y2="522" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1219" />
+      <stop offset="100%" stop-color="#081018" />
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="160" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#25E9DD" />
+      <stop offset="100%" stop-color="#74F7FF" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#25E9DD" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#25E9DD" stop-opacity="0.08" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1046" cy="92" r="198" fill="url(#accent)" />
+  <circle cx="160" cy="548" r="190" fill="#74F7FF" fill-opacity="0.1" />
+  <path d="M0 516C138 458 252 492 360 556C462 616 574 640 714 604C862 566 956 468 1200 500V630H0V516Z" fill="#0A1118" fill-opacity="0.72" />
+
+  <rect x="64" y="64" width="1072" height="502" rx="40" fill="url(#panel)" stroke="#74F7FF" stroke-opacity="0.2" />
+
+  <rect x="96" y="108" width="440" height="380" rx="34" fill="#0B1218" stroke="#74F7FF" stroke-opacity="0.16" />
+  
+  <rect x="130" y="142" width="100" height="100" rx="26" fill="#0F1720" stroke="#25E9DD" stroke-opacity="0.14" />
+  <circle cx="180" cy="192" r="30" fill="#25E9DD" fill-opacity="0.16" />
+  <text x="180" y="202" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" text-anchor="middle">3.5+</text>
+
+  <text x="250" y="165" fill="#74F7FF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2">SEO • PORTFOLIO • PRODUCT</text>
+  <text x="250" y="205" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800">Premium digital</text>
+  <text x="250" y="240" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800">products for teams</text>
+
+  <rect x="130" y="270" width="150" height="40" rx="20" fill="#101822" stroke="#25E9DD" stroke-opacity="0.16" />
+  <text x="205" y="295" fill="#D7FBFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">React + Laravel</text>
+  
+  <rect x="290" y="270" width="140" height="40" rx="20" fill="#101822" stroke="#25E9DD" stroke-opacity="0.16" />
+  <text x="360" y="295" fill="#D7FBFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">FastAPI + AI</text>
+  
+  <rect x="130" y="325" width="370" height="70" rx="24" fill="#0E151D" />
+  <text x="155" y="355" fill="#9DAEC2" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400">SaaS engineering, Shopify development,</text>
+  <text x="155" y="380" fill="#9DAEC2" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400">and production-ready AI systems.</text>
+
+  <rect x="130" y="420" width="220" height="40" rx="20" fill="#25E9DD" />
+  <text x="240" y="446" fill="#021114" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Abdulrahman Chohan</text>
+
+
+  <rect x="990" y="108" width="80" height="80" rx="24" fill="#0E151D" stroke="url(#ring)" stroke-width="1.5" />
+  <circle cx="1030" cy="148" r="24" fill="#25E9DD" fill-opacity="0.18" />
+  <text x="1030" y="155" fill="#25E9DD" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="2" text-anchor="middle">AC</text>
+
+  <text x="960" y="130" fill="#25E9DD" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" letter-spacing="3" text-anchor="end">ABDULRAHMAN CHOHAN</text>
+  <text x="960" y="165" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" text-anchor="end">AI &amp; Full-Stack Engineer</text>
+  <text x="960" y="195" fill="#9DAEC2" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400" text-anchor="end">Portfolio focused on SaaS platforms, Shopify</text>
+  <text x="960" y="220" fill="#9DAEC2" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400" text-anchor="end">apps, backend systems, and RAG pipelines.</text>
+
+  <rect x="580" y="270" width="490" height="218" rx="30" fill="#0B1016" stroke="#25E9DD" stroke-opacity="0.14" />
+  
+  <text x="1030" y="340" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800" text-anchor="end">AI &amp; FULL-STACK</text>
+  <text x="1030" y="400" fill="#F1F8FF" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800" text-anchor="end">ENGINEER</text>
+  
+  <rect x="850" y="420" width="180" height="40" rx="20" fill="url(#chip)" />
+  <text x="940" y="446" fill="#021114" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Premium Portfolio</text>
+
+</svg>

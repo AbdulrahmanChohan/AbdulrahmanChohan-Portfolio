@@ -12,7 +12,7 @@ const NAV_LINKS = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState('home');
-  const logoSrc = `${process.env.PUBLIC_URL}/images/logo1.png`;
+  const logoSrc = `${process.env.PUBLIC_URL}/images/abdulrahman-chohan-logo.png`;
 
   const scrollToSection = (sectionId, key) => {
     jumpToSection(sectionId);
@@ -58,13 +58,13 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 text-white glass-nav">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="h-16 flex items-center relative">
+        <div className="h-[72px] flex items-center relative">
           {/* Left: Logo */}
           <div className="flex items-center gap-2.5 sm:gap-3">
             <img
               src={logoSrc}
-              alt="Abdulrahman logo"
-              className="w-9 h-9 sm:w-10 sm:h-10 object-contain rounded-md shadow-md shrink-0"
+              alt="Abdulrahman Chohan portfolio logo"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain rounded-md shadow-md shrink-0"
             />
             <div className="hidden sm:flex flex-col leading-tight">
               <span className="font-semibold text-white tracking-wide">Abdulrahman</span>

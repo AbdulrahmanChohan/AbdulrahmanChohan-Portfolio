@@ -1,8 +1,10 @@
-Place your portrait image here with this exact name:
+SEO-friendly image filenames used by the app:
 
-profile-portrait.jpg
+abdulrahman-chohan-logo.png
+abdulrahman-chohan-portrait.jpg
 
 Used by:
+- Navbar logo, favicon, and social preview metadata
 - Hero section
 - About section
 
